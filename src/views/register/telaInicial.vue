@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-flex>
-      <div class="main">  
+      <div class="main">
         <div class="img-logo">
           <v-avatar color="#D9D9D9" size="150"></v-avatar>
         </div>
@@ -24,7 +24,7 @@
 
 <style>
 .main {
-  background: linear-gradient(to top, #F3FBF4, #E3FBB9);
+  background: linear-gradient(to top, #f3fbf4, #e3fbb9);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,34 +32,22 @@
   height: 100vh;
 }
 
-h2{
-  color:#000000
-  
-  
+h2 {
+  color: #000000;
 }
 
-
-
-.v-avatar{
+.v-avatar {
   margin-top: 17rem;
 }
 
-
-
-.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--light.v-size--default{
-  background-color: #DEEFB8;
-  color:#000000;
+.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--light.v-size--default {
+  background-color: #deefb8;
+  color: #000000;
   font-weight: 400;
   height: 50px;
   width: 23rem;
   border-radius: 60px;
   box-shadow: none;
   border-style: groove;
-
-  
-  
-  
 }
-
-
 </style>

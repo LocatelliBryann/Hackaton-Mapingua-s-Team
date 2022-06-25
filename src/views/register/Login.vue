@@ -24,9 +24,9 @@
 
       <div class="form">
         <v-form ref="form">
-          <v-text-field label="Name" required></v-text-field>
-
           <v-text-field label="E-mail" required></v-text-field>
+
+          <v-text-field label="Senha" required></v-text-field>
         </v-form>
         <v-col>
           <div class="my-5">
@@ -58,18 +58,7 @@
   padding-right: 2rem;
 }
 
-.form {
-  background-color: #f0fbe4;
-  color: #000000;
-  font-weight: 400;
-  height: 50px;
-  width: 23rem;
-  border-radius: 60px;
-  box-shadow: none;
-  border-style: groove;
-  margin-bottom: 150%;
-  animation: none;
-}
+
 
 .img-logo {
   margin-bottom: 25%;
@@ -80,7 +69,7 @@
   color: #000000;
   font-weight: 400;
   height: 50px;
-  width: 10rem;
+  width: 23rem;
   border-radius: 60px;
   box-shadow: none;
   border-style: groove;
